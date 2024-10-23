@@ -1,0 +1,14 @@
+<div class="class">
+
+  <!--if com a propredade boleana-->
+  <div *ngIf="canShow">Estamos mostrando isso porque foi permitido</div>
+
+  <!--vendo se a string nome é João, se não chama o componente semNome, o else é opsional-->
+  <h2 *ngIf="nome === 'João'; else semNome">O nome é João</h2>
+  <ng-template #semNome>
+    <div>
+      <h2>Nenhum nome</h2>
+    </div>
+  </ng-template>
+
+</div>
