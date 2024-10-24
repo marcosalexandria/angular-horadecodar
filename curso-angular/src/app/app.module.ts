@@ -10,6 +10,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { MandaNumeroComponent } from './components/manda-numero/manda-numero.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MandaNumeroComponent } from './components/manda-numero/manda-numero.com
     IfRenderComponent,
     EventosComponent,
     EmitterComponent,
-    MandaNumeroComponent
+    MandaNumeroComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule,
