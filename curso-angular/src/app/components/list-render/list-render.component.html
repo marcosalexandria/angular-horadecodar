@@ -3,6 +3,8 @@
   <ul>  <!--variavel animal vai receber cada item do array animais-->
     <li *ngFor="let animal of animais">
       Nome: {{ animal.nome }} - Tipo: {{ animal.tipo }}
+      <button (click)="mostraIdade(animal)">Mostrar Idade</button>
     </li>
+    <p> {{ animalDetalhe }}</p>
   </ul>
 </div>
